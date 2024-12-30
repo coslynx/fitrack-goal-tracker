@@ -1,0 +1,10 @@
+{
+  "commands": [
+    "npm install",
+    "npm run build",
+        "node startup.sh",
+    "npm run test",
+    "eslint --fix src/**/*.ts src/**/*.tsx",
+        "prettier --write src/**/*.ts src/**/*.tsx"
+  ]
+}
